@@ -1,0 +1,57 @@
+body{
+    background-color: darksalmon;
+    margin: 0;
+    background-image:url(imagenes/atardecer.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+    background-color: burlywood;
+    padding: 2rem 2rem;
+    text-align: center;
+    border-style:inset;
+}
+
+header h1{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenido{
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    background-color:bisque;
+    margin: 1rem 0;
+    padding: 0.25rem 0;
+    transition: box-shadow 0.3s ease;
+    border-radius: 0.5rem;
+    border-style:dotted;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0, 1);
+}
+
+section article h2, section article p{
+    margin: 1rem; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    background-color: cadetblue;
+    padding: 0.25rem 0;
+}
+
+
+
+
+
+
